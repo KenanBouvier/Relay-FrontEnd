@@ -1,0 +1,32 @@
+.topShape{
+    position:absolute;
+    width:391px;
+    height:184px;
+    top:0px;
+    left:-1px;
+    z-index: -1;
+    transform:scale(1.1);
+}
+
+.biggerTopShape{
+    display:none;
+    position:absolute;
+    top:15px;
+    /* left:-170px; */
+    left:-180px;
+    /* height:694.69px; */
+    height:750px;
+    /* width:802.5px; */
+    width:850px;
+    z-index: -1;
+    
+}
+
+@media only screen and (min-width:630px){
+    .topShape{
+        display:none;
+    }
+    .biggerTopShape{
+        display:block;
+    }
+}

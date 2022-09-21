@@ -1,0 +1,58 @@
+.navContainer{
+    display:none;
+    position:absolute;
+    background-color: white;
+    width:100%;
+    height:85px;
+    left:0px;
+    top:0px;
+
+    border-bottom: 1px solid rgba(0,0,0,0.12);
+}
+.navContainer p{
+    padding-left:203px;
+    vertical-align: middle;
+    line-height:55px;
+}
+
+.navArrowRight{
+    left:21.06%;
+    right:78.35%;
+    top:2.1%;
+    bottom:97.62%;
+    height:8.46px;
+    width:5.29px;
+
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.claimsMenu{
+    font-weight:400;
+    font-size:16px;
+    line-height:24px;
+    opacity:0.5;
+}
+
+.returnArrow{
+    position:absolute;
+    height:37px;
+    width:37px;
+    top:26px;
+    left:150px;
+}
+
+.logo{
+    width:35px;
+    height:35px;
+    float:right;
+    padding-right:150px;
+    padding-top:10px;
+}
+
+
+@media only screen and (min-width:630px){
+    .navContainer{
+        display:block;
+    }
+}
